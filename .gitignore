@@ -1,0 +1,26 @@
+# project specific
+/web/.vitepress/cache
+/web/.vitepress/dist
+
+# dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local env files
+.env
+.env.*
+!.env.example
