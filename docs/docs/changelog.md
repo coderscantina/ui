@@ -11,7 +11,7 @@ This page lists the latest changes and announcements for SabaccUI. You can view 
 
 The initial release of SabaccUI includes the following components:
 
-- [Gradient Text](/components/gradient)
+- [Gradient Text](/components/gradient-text)
 - [Marquee](/components/marquee)
 - [Reveal Text](/components/reveal-text)
 - [Scroll By Container](/components/scroll-by-container)
