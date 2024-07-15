@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const props = withDefaults(
   defineProps<{
-    reverse?: boolean
-    pauseOnHover?: boolean
-    vertical?: boolean
-    repeat?: number
-    duration?: number
-    gap?: number
+    reverse?: boolean;
+    pauseOnHover?: boolean;
+    vertical?: boolean;
+    repeat?: number;
+    duration?: number;
+    gap?: number;
   }>(),
   {
     reverse: false,
@@ -16,12 +16,15 @@ const props = withDefaults(
     duration: 60,
     gap: 3,
   }
-)
+);
 </script>
 
 <template>
   <div
-    :class="['group flex [gap:var(--gap)] overflow-clip', vertical ? 'flex-col' : 'flex-row']"
+    :class="[
+      'group flex [gap:var(--gap)] overflow-clip',
+      vertical ? 'flex-col' : 'flex-row',
+    ]"
     :style="`--duration:${duration}s; --gap:${gap}rem`"
     v-bind="$attrs"
   >
