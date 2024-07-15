@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Browse Components
-      link: /components
+      link: /components/marquee
     - theme: alt
       text: Get Started
-      link: /get-started
+      link: /docs/introduction
       # https://vitepress.dev/reference/default-theme-home-page
       layout: home
       title: UI Library for Vue

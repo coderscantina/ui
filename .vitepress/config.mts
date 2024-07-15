@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Sabacc UI',
-  titleTemplate: ':title - Sabacc UI',
+  title: 'SabaccUI',
+  titleTemplate: ':title - SabaccUI',
   description: 'UI library for VueJS Engineers',
   lastUpdated: true,
   cleanUrls: true,
@@ -47,7 +47,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/coderscantina/ui/tree/dev/web/src/:path',
+      pattern: 'https://github.com/coderscantina/ui/tree/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
 
