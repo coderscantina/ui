@@ -15,6 +15,15 @@ A Vue component that scrolls content above a static container.
 
 ## Installation
 
+#### 1. Install component dependency by running the following command:
+
+<InstallDependency
+  :packages="['@vueuse/core']"
+  :dev="true"
+/>
+
+#### 2. Copy and paste the following code into your project:
+
 Create a new Vue component file called `ScrollByContainer.vue` in your `components` directory and paste the following code:
 
 <CodeFile title="ScrollByContainer.vue" :collapsed>

@@ -50,6 +50,8 @@ An infinite scrolling marquee component for Vue that can be used to display text
 
 ## Installation
 
+#### 1. Copy and paste the following code into your project:
+
 Create a new Vue component file called `marquee.vue` in your `components` directory and paste the following code:
 
 <CodeFile title="marquee.vue" :collapsed>

@@ -15,7 +15,17 @@ This Vue component creates an animated gradient text effect, allowing you to add
 
 ## Installation
 
+#### 1. Copy and paste the following code into your project:
+
 Create a new Vue component file called `GradientText.vue` in your `components` directory and paste the following code:
+
+<CodeFile title="GradientText.vue" :collapsed>
+
+```vue
+<!-- @include: ../../components/GradientText.vue -->
+```
+
+</CodeFile>
 
 ## Examples
 
