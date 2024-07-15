@@ -30,10 +30,10 @@ export default defineConfig({
     ['meta', { property: 'og:title', content: 'Animated UI component library for Vue Engineers' }],
     ['meta', { property: 'og:description', content: 'Discover SabaccUI: A collection of stunning, animated Vue.js components. Copy, paste, and customize to create unique, high-performance web interfaces. Open-source and accessible.' }],
     ['meta', { property: 'og:site_name', content: 'SabaccUI' }],
-    ['meta', { property: 'og:image', content: 'https://ui.coderscantina.com/sabaccui-og.png' }],
+    ['meta', { property: 'og:image', content: 'https://ui.coderscantina.com/sabacc-ui-og.png' }],
     ['meta', { property: 'og:url', content: 'https://ui.coderscantina.com/' }],
     ['meta', { name: 'twitter:type', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: 'https://ui.coderscantina.com/sabaccui-og.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://ui.coderscantina.com/sabacc-ui-og.png' }],
     ['meta', { name: 'twitter:description', content: 'Discover SabaccUI: A collection of stunning, animated Vue.js components. Copy, paste, and customize to create unique, high-performance web interfaces. Open-source and accessible.' }],
   ],
 
