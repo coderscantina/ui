@@ -13,7 +13,7 @@ const props = withDefaults(
     pauseOnHover: false,
     vertical: false,
     repeat: 4,
-    duration: 120,
+    duration: 60,
     gap: 3,
   }
 )
@@ -29,7 +29,7 @@ const props = withDefaults(
       v-for="i in repeat"
       :key="i"
       :class="[
-        'flex shrink-0 justify-around [gap:var(--gap)]',
+        'flex shrink-0 justify-around [gap:var(--gap)] transition-transform',
         {
           'animate-marquee flex-row': !vertical,
           'animate-marquee-vertical flex-col': vertical,
