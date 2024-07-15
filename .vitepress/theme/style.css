@@ -4,14 +4,15 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd36ff, #49c7ff);
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd36ff,
+    #49c7ff
+  );
 }
 
 @layer base {
   :root {
-    --font-geist-sans: 'geist-sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
-      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
@@ -39,7 +40,9 @@
 
     --vis-font-family: inherit !important;
     --vis-area-stroke-width: 2px !important;
-    --vis-donut-central-label-text-color: hsl(var(--muted-foreground)) !important;
+    --vis-donut-central-label-text-color: hsl(
+      var(--muted-foreground)
+    ) !important;
     --vis-tooltip-background-color: none !important;
     --vis-tooltip-border-color: none !important;
     --vis-tooltip-text-color: none !important;
