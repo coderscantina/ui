@@ -72,7 +72,7 @@ export default defineConfig({
       {
         text: 'Components',
         collapsed: false,
-        items: [{ text: 'Marquee', link: '/components/marquee' }],
+        items: [{ text: 'Marquee', link: '/components/marquee', label: 'New' }],
       },
     ],
 
