@@ -47,7 +47,7 @@ Create a new Vue component file called `ScrollByContainer.vue` in your `componen
      class="w-full h-full object-cover"
     >
   </template>
-  <div class="mx-auto max-w-prose">
+  <div class="mx-auto max-w-prose px-6">
     <p class="text-sm uppercase tracking-wider text-blue-600 dark:text-blue-400 font-semibold">How we escaped Hoth</p>
     <p class="text-2xl !leading-relaxed">As Imperial forces attacked Echo Base on Hoth, the Rebels launched a desperate evacuation. Under heavy fire, transports fled while ground troops bought time. Luke Skywalker's Rogue Squadron provided air support, allowing the last ships to escape. Despite losses, the Rebels' quick action preserved their fight against the Empire.</p>
   </div> 
@@ -64,7 +64,7 @@ Create a new Vue component file called `ScrollByContainer.vue` in your `componen
         class="w-full h-full object-cover"
       />
     </template>
-    <div class="mx-auto max-w-prose">
+    <div class="mx-auto max-w-prose px-6">
       <p
         class="text-sm uppercase tracking-wider text-blue-600 dark:text-blue-400 font-semibold"
       >
@@ -101,7 +101,7 @@ Create a new Vue component file called `ScrollByContainer.vue` in your `componen
         class="w-full h-full object-cover"
     />
   </template>
-  <div class="mx-auto max-w-prose">
+  <div class="mx-auto max-w-prose px-6">
     <p class="text-sm uppercase tracking-wider text-blue-600 dark:text-blue-400 font-semibold">How we escaped Hoth</p>
     <p class="text-2xl !leading-relaxed">As Imperial forces attacked Echo Base on Hoth, the Rebels launched a desperate evacuation. Under heavy fire, transports fled while ground troops bought time. Luke Skywalker's Rogue Squadron provided air support, allowing the last ships to escape. Despite losses, the Rebels' quick action preserved their fight against the Empire.</p>
   </div>
@@ -124,7 +124,7 @@ Create a new Vue component file called `ScrollByContainer.vue` in your `componen
         class="w-full h-full object-cover"
       />
     </template>
-    <div class="mx-auto max-w-prose">
+    <div class="mx-auto max-w-prose px-6">
       <p
         class="text-sm uppercase tracking-wider text-blue-600 dark:text-blue-400 font-semibold"
       >
