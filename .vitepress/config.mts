@@ -1,5 +1,4 @@
 import path from "node:path";
-import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
@@ -45,7 +44,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Getting Started", link: "/docs/introduction" },
-      { text: "Components", link: "/components/marquee" },
+      { text: "Components", link: "/components/gradient-text" },
     ],
 
     search: {
@@ -74,7 +73,7 @@ export default defineConfig({
         items: [
           { text: "Gradient Text", link: "/components/gradient-text" },
           { text: "Marquee", link: "/components/marquee" },
-          { text: "Reveal Text", link: "/components/reveal-text" },
+          { text: "Scroll Reveal", link: "/components/scroll-reveal" },
           {
             text: "Scroll By Container",
             link: "/components/scroll-by-container",

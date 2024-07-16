@@ -10,7 +10,7 @@ A text reveal component for Vue that can be used to display text.
 <script setup>
 import { ref } from 'vue'
 
-import RevealText from '../../components/RevealText.vue'
+import ScrollReveal from '../../components/ScrollReveal.vue'
 </script>
 
 ## Installation
@@ -34,12 +34,12 @@ Create a new Vue component file called `RevealWord.vue` in your `components` dir
 
 </CodeFile>
 
-Create a new Vue component file called `RevealText.vue` in your `components` directory and paste the following code:
+Create a new Vue component file called `ScrollReveal.vue` in your `components` directory and paste the following code:
 
-<CodeFile title="RevealText.vue" :collapsed>
+<CodeFile title="ScrollReveal.vue" :collapsed>
 
 ```vue
-<!-- @include: ../../components/RevealText.vue -->
+<!-- @include: ../../components/ScrollReveal.vue -->
 ```
 
 </CodeFile>
@@ -49,13 +49,13 @@ Create a new Vue component file called `RevealText.vue` in your `components` dir
 ### Simple Example
 
 <ComponentPreview>
-<RevealText text="Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying."/>
+<ScrollReveal text="Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying."/>
 
 <template #code>
 
 ```vue
 <template>
-  <RevealText
+  <ScrollReveal
     text="Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying."
   />
 </template>

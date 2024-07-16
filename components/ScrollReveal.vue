@@ -6,11 +6,11 @@ import RevealWord from "./RevealWord.vue";
 const props = withDefaults(
   defineProps<{
     text: string;
-    size: number;
-    wrapperClass: string;
-    textClass: string;
-    minOpacity: number;
-    maxOpacity: number;
+    size?: number | undefined;
+    wrapperClass?: string | string[] | undefined;
+    textClass?: string | string[] | undefined;
+    minOpacity?: number | undefined;
+    maxOpacity?: number | undefined;
   }>(),
   {
     size: 2,
